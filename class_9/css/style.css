@@ -1,16 +1,219 @@
+/* ==============================
+********COMMON CSS START*********
+================================== */
 * {
     margin: 0;
     padding: 0;
     outline: 0;
 }
 
-
-/* nav start */
-.header {
-    height: 32px;
-    line-height: 32px;
-    background-color: #1479bc;
-    padding-left: 42px;
+ul, li {
+    list-style: none;
 }
 
-/* nav end */
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Light' ;
+    src: url(../myriad-pro/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular' ;
+    src: url(../myriad-pro/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: 'MyriadPro-BOLD' ;
+    src: url(../myriad-pro/MYRIADPRO-BOLD.OTF);
+}
+
+@font-face {
+    font-family: 'MyriadPro-SEMIBOLD' ;
+    src: url(../myriad-pro/MYRIADPRO-SEMIBOLD.OTF);
+}
+
+/* ==============================
+********COMMON CSS END*********
+================================== */
+
+
+/* ==============================
+******** HEADER START *********
+================================== */
+#header_part {
+    height: 32px;
+    background: #0872b9;
+}
+
+.header_cont {
+    height: 32px;
+}
+
+.header_text {
+    width: 50%;
+    float: left;
+    height: 32px;
+}
+
+.header_text p {
+    color: #e7e7e7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;    
+    margin-left: 40px;
+}
+
+
+.header_icon {
+    width: 50%;
+    float: left;
+    height: 32px;
+    text-align: right;
+}
+
+.header_icon a {
+    color: #e7e7e7;
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 24px;
+}
+/* ==============================
+******** HEADER END *********
+================================== */
+
+/* ==============================
+********Menu Start*********
+================================== */
+
+#menu_part {
+    height: 80px;
+}
+
+.menu_cont {
+    height: 80px;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.logo a{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.main_menu {
+    width: 85%;
+    float: left;
+}
+
+.main_menu ul {
+    float: right;
+}
+
+.main_menu ul li {
+    float: left;
+}
+
+.main_menu ul li a {
+    line-height: 80px;
+    margin-left: 15px;
+    color: #353535;
+    font-family: 'MyriadPro-Regular';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+/* ==============================
+********Menu end*********
+================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
