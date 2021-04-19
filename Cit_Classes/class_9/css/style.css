@@ -1,0 +1,304 @@
+/* ==============================
+********COMMON CSS START*********
+================================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+/* ==============================
+********COMMON CSS END*********
+================================== */
+
+
+/* ==============================
+******** HEADER START *********
+================================== */
+#header_part {
+    height: 32px;
+    background: #2382c1;
+}
+
+.header_cont {
+    height: 32px;
+}
+
+.header_text {
+    width: 50%;
+    float: left;
+}
+
+
+.header_text p {
+    line-height: 32px;
+    color: #e7e7e7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+.header_icon {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.header_icon a {
+    font-size: 14px;
+    color: #e7e7e7;
+    line-height: 32px;
+    margin-left: 24px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.header_icon a:hover {
+    color: #353535;
+}
+
+@font-face {
+    font-family:'MYRIADPRO-BOLD' ;
+    src: url(../myriad-pro/MYRIADPRO-BOLD.OTF);
+}
+@font-face {
+    font-family:'MYRIADPRO-Regular' ;
+    src: url(../myriad-pro/MYRIADPRO-REGULAR.OTF);
+}
+
+/*==============================
+******** HEADER END *********
+================================== */
+
+/* ==============================
+********Menu Start*********
+================================== */
+
+#menu_part {
+    height: 80px;
+}
+
+.menu_cont {
+    height: 80px;
+}
+
+.logo {
+     height: 80px;
+     margin-top: 20px;
+     width: 15%;
+     float: left;
+}
+
+.main_menu {
+    width: 85%;
+    float: left;
+}
+
+.main_menu ul {
+    float: right;
+}
+
+.main_menu ul li {
+    float: left;
+    line-height: 80px;
+    
+}
+
+.main_menu ul li a{
+    margin-left: 17px;
+    font-size: 14px;
+    font-family:'MYRIADPRO-Regular';
+    color: #353535;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu ul li a:hover {
+    color: #0872b9;
+}
+
+/* ==============================
+********Menu end*********
+================================== */
+
+
+/* ==============================
+********Banner START*********
+================================== */
+#banner_part {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 88px 0;
+    position: relative;
+    z-index: 1;
+}
+
+#banner_part::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.banner_text {
+    float: right;
+    width: 470px;
+    text-align: right;
+}
+
+.banner_text h2 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: -9px;
+}
+
+.banner_text h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.banner_text p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.banner_text a{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'Oswald', sans-serif;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.banner_text a:hover {
+    background: #0872b9;
+    border-color: #0872b9;
+
+}
+/* ==============================
+********Banner End*********
+================================== */
+
+/* ==============================
+********About Part START*********
+================================== */
+
+#about_part {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about_text h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: #353535;
+    text-transform: uppercase;
+    margin-bottom: -12px;
+}
+.about_text img {
+    margin-right: 30px;
+}
+
+/* ==============================
+********About Part End*********
+================================== */
+
+
+
+
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
+/* ==============================
+********COMMON CSS START*********
+================================== */
+
+/* ==============================
+********COMMON CSS START*********
+================================== */
